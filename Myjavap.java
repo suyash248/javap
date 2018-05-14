@@ -1,7 +1,7 @@
 import java.lang.reflect.*;
 import java.io.*;
 
-class Myjavap {
+public class Javap {
     public static void main(String... w) {
     	try { 
 			Class c=Class.forName(w[0]);
@@ -26,7 +26,7 @@ class Myjavap {
 			Samplemethod.printmethod(w[0]);
 			System.out.print("}");
 		} catch(Exception ex) {
-			System.out.print("ERROR: Couldn't find information about " + c.getName());
+			System.out.print("ERROR: Couldn't find information: " + ex.getMessage());
 		}
     }
 }
