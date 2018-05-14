@@ -5,6 +5,12 @@ constructors, parents etc. of any class.
 ` javap java.lang.String`
 
 This is a similar custom javap tool built using Reflection API's. 
+
 #### Usage - 
-` java Myjavap java.lang.String`
+
+```java 
+$ javac Javap.java
+$ java Javap java.lang.String
+$ vim String.txt
+```
 
